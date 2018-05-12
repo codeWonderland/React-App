@@ -10,7 +10,9 @@
   },
   "scripts": {
     "build-scss": "sass-convert index.scss index.sass && sass index.sass index.css",
-    "watch-scss": "npm run build-scss && node-sass-chokidar src/ -o src/ --watch --recursive",
+    "watch-scss": "npm run build-scss && node-sass-chokidar src/ -o src/ --watch",
+    "build-coffee": "coffee util.coffee -o util.js",
+    "watch-coffee": "npm run build-coffee && coffee -w util.coffee -o util.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
