@@ -1,0 +1,24 @@
+{"short_name": "ACE Innovations",
+  "name": "Alice C. Easter's Portfolio",
+  "icons": [
+    {
+      "src": "/images/ace-launcher-1x.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "/images/ace-launcher-2x.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "/images/ace-launcher-4x.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "theme_color": "#000000",
+  "display": "standalone",
+  "start_url": "./index.html?launcher=true",
+  "background_color": "#ffffff"
+}
