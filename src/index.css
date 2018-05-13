@@ -1,6 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower");
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif; }
+  font-family: 'Indie Flower', cursive; }
+
+div.App {
+  background-image: url("/images/adi-goldstein-393290-unsplash.jpg");
+  background-size: cover;
+  height: calc(100vh - 1rem);
+  width: 100vw;
+  padding: 1rem 0 0;
+  display: grid;
+  grid-template-rows: 11fr 1fr; }
+
+div.comp-view {
+  margin-top: -1rem;
+  padding: 1rem; }
+
+div.nav-view {
+  background: #0c0c0c;
+  box-shadow: 0 0 2px 1px black; }
 
 /*# sourceMappingURL=index.css.map */
