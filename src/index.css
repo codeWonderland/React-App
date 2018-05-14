@@ -21,4 +21,11 @@ div.nav-view {
   background: #0c0c0c;
   box-shadow: 0 0 2px 1px black; }
 
+div.card {
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 3.5px 3.5px 5px 5px rgba(0, 0, 0, 0.35);
+  padding: 0 1rem;
+  display: inline-block; }
+
 /*# sourceMappingURL=index.css.map */

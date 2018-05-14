@@ -9,10 +9,10 @@
     "react-scripts": "1.1.4"
   },
   "scripts": {
-    "build-scss": "sass-convert index.scss index.sass && sass index.sass index.css",
-    "watch-scss": "npm run build-scss && node-sass-chokidar src/ -o src/ --watch",
-    "build-coffee": "coffee util.coffee -o util.js",
-    "watch-coffee": "npm run build-coffee && coffee -w util.coffee -o util.js",
+    "build-scss": "sass-convert src/index.scss src/index.sass && sass src/index.sass src/index.css",
+    "watch-scss": "npm run build-scss && sass --watch src/index.scss:src/index.css",
+    "build-coffee": "coffee src/util.coffee -o src/util.js",
+    "watch-coffee": "npm run build-coffee && coffee -w src/util.coffee -o src/util.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
